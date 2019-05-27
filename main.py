@@ -1,6 +1,5 @@
 import os
 
-
 def open_():
     current = os.listdir()
     for i,j in enumerate(current,1):
@@ -14,9 +13,7 @@ def open_():
         print('ERROR!!')
     finally:
         f.close()
-"""
 
-"""
 def file(): 
     current = os.listdir()
     for i,j in enumerate(current):
